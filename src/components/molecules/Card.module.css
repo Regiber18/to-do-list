@@ -1,0 +1,48 @@
+#cal_insert {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cal_show {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+#cal_activities {
+    width: 75%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#cal_apply {
+    width: 75%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cal_icon {
+    width:10%;
+    height: 100%;
+    border: 1px solid black; 
+    background-color: red;
+}
+
+#cal_text {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+}
