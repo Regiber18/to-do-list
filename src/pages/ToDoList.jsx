@@ -1,4 +1,4 @@
-import Activities from "../components/organisms/Activities";
+import Activities from "../components/organisms/Activitie";
 import Style from "./ToDoList.module.css"
 function ToDoList () {
 
