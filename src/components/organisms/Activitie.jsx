@@ -1,7 +1,7 @@
 import Card from "../molecules/Card"
-import Style from "./Activities.module.css"
+import Style from "./Activitie.module.css"
 
-function Activities() {
+function Activitie() {
  
 
     return(
@@ -13,4 +13,4 @@ function Activities() {
   
 }
 
-export default Activities;
+export default Activitie;

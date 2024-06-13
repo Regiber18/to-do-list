@@ -27,14 +27,14 @@ function Card() {
   const [value, setValue] = useState([]);
   const [activities, setActivities] = useState([]);
   const [one, setOne] = useState(false);
-  const [flag, setFlag] = useState(false)
+
   
   const apply = () => {
     if (!activitie) {
       Swal.fire({
         title: "Agregar",
         icon: "error",
-        text: "Erro al agregar",
+        text: "Error al agregar",
       });
     } else {
       Swal.fire({
@@ -55,17 +55,7 @@ function Card() {
     setValue(value.map(item => {
       if (item.id === id && item.status === true) {
         return { ...item, editing: !item.editing };
-        setFlag(true)
       }
-      
-      if(!flag) {
-        Swal.fire({
-          title: "change",
-          text: "No se ha realizado",
-          icon: "error"
-        })
-      }
-
       return item;
     }));
   };
@@ -79,7 +69,7 @@ function Card() {
       }
       Swal.fire({
         title: "Alta",
-        text: "Se dio de alta",
+        text: "Actividades realizadas",
         icon: "success"
       })
       console.log(activities)
@@ -99,15 +89,12 @@ function Card() {
       <div id={Style.cal_title}>
         <Title title={"To-do-list"}></Title>
       </div>
-
       <div id={Style.cal_insert}>
         <Input type={"text"} placeholder={"actividad"} value={activitie} fnval={setActivitie} />
         <ButtonAdd onClick={apply} type="submit" title={"apply"} />
       </div>
-
       <div id={Style.cal_show}>
         <div id={Style.cal_activities}>
-
           {value.map(item => (
             <ActivitieContent key={item.id}>
               <div id={Style.cal_text}>
