@@ -1,6 +1,6 @@
 import Activities from "../components/organisms/Activities";
-import Style from "./Home.module.css"
-function Home () {
+import Style from "./ToDoList.module.css"
+function ToDoList () {
 
     return(
         <div id={Style.cal_home}>
@@ -9,4 +9,4 @@ function Home () {
     )
 }
 
-export default Home;
+export default ToDoList;

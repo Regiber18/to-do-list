@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledText = styled.p `
-      font-size: 10px;
+      font-size: 16px;
       font-family: arial, sans-serif;
 `
 
