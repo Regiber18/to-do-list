@@ -1,6 +1,6 @@
 import { useState } from "react"
 import styled from "styled-components"
-
+import { useCallback } from "react"
 const StyledInput = styled.input `
       width: 60%;
       height: 35px; 
@@ -11,13 +11,14 @@ const StyledInput = styled.input `
 
 function Input(props) {
    
-
-    const handleChange = (event) => {
+    const call = useCallback(
+    (event) => {   
         props.fnval(event.target.value)
-    }
-
+    
+    }, []
+    ) 
     return(
-        <StyledInput onChange={handleChange} value={props.value} placeholder={props.placeholder}></StyledInput>
+        <StyledInput onChange={call} value={props.value} placeholder={props.placeholder}></StyledInput>
     )
 }
 

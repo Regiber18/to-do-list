@@ -1,8 +1,19 @@
-#cal_activities {
-    width: 40%;
-    height: 650px;
+.cal_activities {
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    padding: 16px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }

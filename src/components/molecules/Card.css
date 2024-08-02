@@ -1,0 +1,43 @@
+#content {
+  padding: 16px;
+}
+
+#cal_show {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#cal_activities {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.activitieContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+#cal_text p {
+  margin: 0;
+}
+
+#cal_icon, #cal_icon_update {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #007bff;
+}

@@ -5,10 +5,7 @@ const StyledContent = styled.div `
       height: 600px; 
       border-radius: 4px;
       background-color: #1560bd;
-
-     
 `
-
 function Content(props) {
 
     return(
