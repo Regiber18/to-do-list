@@ -1,7 +1,6 @@
-/* Asegúrate de que todos los estilos sean coherentes con el JSX */
 
 .apply-activitie {
-    text-align: center; /* Centra el contenido del div principal */
+    text-align: center; 
 }
 
 #cal_title {
@@ -12,9 +11,9 @@
 
 #cal_content {
     display: flex;
-    align-items: center; /* Alinea verticalmente el campo de entrada y el botón */
-    justify-content: center; /* Centra horizontalmente el campo de entrada y el botón */
-    gap: 8px; /* Espacio entre el campo de entrada y el botón */
+    align-items: center; 
+    justify-content: center;
+    gap: 8px; 
     margin-top: 16px;
 }
 

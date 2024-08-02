@@ -1,5 +1,5 @@
 import ButtonRegister from "../atoms/ButtonRegister";
-import './AddList.css'; // Asegúrate de que el archivo CSS esté importado
+import './AddList.css'; 
 
 function AddList({ toregister }) {
     return (
